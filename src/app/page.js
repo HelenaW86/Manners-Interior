@@ -16,7 +16,7 @@ export default function Home() {
           height={300}
           priority
         />
-        <h1 style={{ letterSpacing: 10, textTransform: "uppercase", fontSize: "1.2rem", margin: "20px auto" }}>..Coming Soon..</h1>
+        <h1 style={{ letterSpacing: 10, textTransform: "uppercase", fontSize: "1.2rem", margin: "20px auto", color: "#333" }}>..Coming Soon..</h1>
       </main>
     </>
   );
