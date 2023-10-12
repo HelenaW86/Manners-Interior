@@ -1,7 +1,7 @@
 import Head from "next/head";
 import "./globals.css";
 
-import { albert } from "./fonts";
+import { albert, mohave } from "./fonts";
 
 export const metadata = {
   title: "Manners Interior",
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <Head>
     <link rel="shortcut icon" href="./favicon.ico" />
     </Head>
-    <html lang="en" className={albert.className} >
+    <html lang="en" className={mohave.className} >
       <body>{children}</body>
     </html>
     </>

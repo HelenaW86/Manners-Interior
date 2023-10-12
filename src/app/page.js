@@ -8,15 +8,15 @@ export default function Home() {
       <Head>
         <link rel="shortcut icon" href="./favicon.ico" />
       </Head>
-      <main>
+      <main style={{padding: "60px 0"}}>
         <Image
           src="/manners_logga.png"
           alt="Manners Logo"
-          width={600}
-          height={600}
+          width={300}
+          height={300}
           priority
         />
-        <h1 style={{ letterSpacing: 10, textTransform: "uppercase", fontSize: "3rem" }}>Coming Soon...</h1>
+        <h1 style={{ letterSpacing: 10, textTransform: "uppercase", fontSize: "1.5rem" }}>Coming Soon...</h1>
       </main>
     </>
   );
