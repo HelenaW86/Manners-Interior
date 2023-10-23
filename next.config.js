@@ -1,8 +1,7 @@
+const path = require('path')
+ 
 module.exports = {
-  // ... rest of the configuration.
-  output: "standalone",
-  reactStrictMode: true,
-  compiler: {
-    styledComponents: true
-  }
-};
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+}
